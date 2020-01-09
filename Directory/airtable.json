@@ -1,0 +1,101 @@
+{
+	"records": [
+		{
+			"id": "rec2B8nsxYLen4vnw",
+			"fields": {
+				"First Name": "Someone",
+				"Title": "Business Development",
+				"Reporting to": [
+					"reczzoA2falFjVsgY"
+				],
+				"Email": "someone@else.com",
+				"Phone": "(789) 123-000‬",
+				"Status": "Internal",
+				"Last Name": "Else",
+				"Department": "Business"
+			},
+			"createdTime": "2020-01-06T00:35:16.000Z"
+		},
+		{
+			"id": "reczzoA2falFjVsgY",
+			"fields": {
+				"First Name": "Harold",
+				"Headshot": [
+					{
+						"id": "attxb3E8dnPp2TIPu",
+						"url": "https://dl.airtable.com/.attachments/e8415776f4f9db159561abe5c34289f2/21950ad0/me.png",
+						"filename": "me.png",
+						"size": 1556563,
+						"type": "image/png",
+						"thumbnails": {
+							"small": {
+								"url": "https://dl.airtable.com/.attachmentThumbnails/137627901edebd2ae815bd2c57b95b76/f27b4bcf",
+								"width": 36,
+								"height": 36
+							},
+							"large": {
+								"url": "https://dl.airtable.com/.attachmentThumbnails/6d374c8d0c278b7d07d03bd48bf2080e/62de0564",
+								"width": 512,
+								"height": 512
+							},
+							"full": {
+								"url": "https://dl.airtable.com/.attachmentThumbnails/c76e4aec7262b04c3fd659e0e6666293/0dc70ee3",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					}
+				],
+				"Title": "Director of Technology",
+				"Email": "harold.martin@gmail.com",
+				"Phone": "(123) 000-000",
+				"Status": "Internal",
+				"Last Name": "Martin",
+				"Department": "Technology"
+			},
+			"createdTime": "2018-03-19T17:15:52.000Z"
+		},
+		{
+			"id": "recXRwEH0l7OFzX9m",
+			"fields": {
+				"First Name": "Testing",
+				"Headshot": [
+					{
+						"id": "attufmI6VPoTydV3u",
+						"url": "https://dl.airtable.com/bpV4WKcRyWHMCDM4zKi8_headshot-pink-2.png",
+						"filename": "headshot-pink-2.png",
+						"size": 408231,
+						"type": "image/png",
+						"thumbnails": {
+							"small": {
+								"url": "https://dl.airtable.com/E4TaM7AhTZOrUOpxv0nH_small_headshot-pink-2.png",
+								"width": 49,
+								"height": 36
+							},
+							"large": {
+								"url": "https://dl.airtable.com/Updzv5RLRKQnA24F7b7w_large_headshot-pink-2.png",
+								"width": 695,
+								"height": 512
+							},
+							"full": {
+								"url": "https://dl.airtable.com/GVbVu8lQoqTniGk061rv_full_headshot-pink-2.png",
+								"width": 950,
+								"height": 700
+							}
+						}
+					}
+				],
+				"Title": "Photography and Media",
+				"Reporting to": [
+					"reczzoA2falFjVsgY"
+				],
+				"Email": "test@testing.com",
+				"Phone": " (123) 456-789‬",
+				"Status": "Internal",
+				"Last Name": "Rando",
+				"Department": "Media"
+			},
+			"createdTime": "2018-03-19T17:19:38.000Z"
+		}
+	]
+}

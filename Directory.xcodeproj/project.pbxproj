@@ -3,19 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		246B38FC23C7DB8100618273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B38FB23C7DB8100618273 /* AppDelegate.swift */; };
 		246B38FE23C7DB8100618273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B38FD23C7DB8100618273 /* SceneDelegate.swift */; };
-		246B390123C7DB8100618273 /* Directory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 246B38FF23C7DB8100618273 /* Directory.xcdatamodeld */; };
-		246B390323C7DB8100618273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B390223C7DB8100618273 /* ContentView.swift */; };
 		246B390523C7DB8300618273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246B390423C7DB8300618273 /* Assets.xcassets */; };
 		246B390823C7DB8300618273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246B390723C7DB8300618273 /* Preview Assets.xcassets */; };
 		246B390B23C7DB8300618273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246B390923C7DB8300618273 /* LaunchScreen.storyboard */; };
 		246B391623C7DB8300618273 /* DirectoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B391523C7DB8300618273 /* DirectoryTests.swift */; };
 		246B392123C7DB8300618273 /* DirectoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B392023C7DB8300618273 /* DirectoryUITests.swift */; };
+		246B393B23C7DD6C00618273 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B393323C7DD6C00618273 /* VisualEffectView.swift */; };
+		246B393C23C7DD6C00618273 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B393423C7DD6C00618273 /* PersonRow.swift */; };
+		246B393D23C7DD6C00618273 /* Personable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B393523C7DD6C00618273 /* Personable.swift */; };
+		246B393E23C7DD6C00618273 /* PersonName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B393623C7DD6C00618273 /* PersonName.swift */; };
+		246B393F23C7DD6C00618273 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B393723C7DD6C00618273 /* GradientView.swift */; };
+		246B394023C7DD6C00618273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B393823C7DD6C00618273 /* ContentView.swift */; };
+		246B394123C7DD6C00618273 /* HeadshotImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B393923C7DD6C00618273 /* HeadshotImage.swift */; };
+		246B394223C7DD6C00618273 /* ActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B393A23C7DD6C00618273 /* ActionButtons.swift */; };
+		246B394C23C7DD8700618273 /* Person+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B394423C7DD8700618273 /* Person+Extensions.swift */; };
+		246B394D23C7DD8700618273 /* Airtable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B394523C7DD8700618273 /* Airtable.swift */; };
+		246B394E23C7DD8700618273 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B394623C7DD8700618273 /* UserDefault.swift */; };
+		246B394F23C7DD8700618273 /* UserDefaultsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B394723C7DD8700618273 /* UserDefaultsStore.swift */; };
+		246B395023C7DD8700618273 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B394823C7DD8700618273 /* Secrets.swift */; };
+		246B395123C7DD8700618273 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B394923C7DD8700618273 /* Fetcher.swift */; };
+		246B395223C7DD8700618273 /* CoreDataLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B394A23C7DD8700618273 /* CoreDataLogger.swift */; };
+		246B395323C7DD8700618273 /* Secrets.swift.gyb in Resources */ = {isa = PBXBuildFile; fileRef = 246B394B23C7DD8700618273 /* Secrets.swift.gyb */; };
+		246B395523C7DFB100618273 /* Directory.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 246B395423C7DFB100618273 /* Directory.xcdatamodel */; };
+		246B395723C7E24A00618273 /* airtable.json in Resources */ = {isa = PBXBuildFile; fileRef = 246B395623C7E24A00618273 /* airtable.json */; };
+		246B395B23C7F6AA00618273 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246B395A23C7F6AA00618273 /* Dictionary+Extensions.swift */; };
+		BFFBA7C67FBBF7B5D33BC82A /* Pods_Directory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A262EB0B7BC077B74D7CEA /* Pods_Directory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +57,6 @@
 		246B38F823C7DB8100618273 /* Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Directory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		246B38FB23C7DB8100618273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		246B38FD23C7DB8100618273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		246B390023C7DB8100618273 /* Directory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Directory.xcdatamodel; sourceTree = "<group>"; };
-		246B390223C7DB8100618273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		246B390423C7DB8300618273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246B390723C7DB8300618273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		246B390A23C7DB8300618273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,28 @@
 		246B391C23C7DB8300618273 /* DirectoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		246B392023C7DB8300618273 /* DirectoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryUITests.swift; sourceTree = "<group>"; };
 		246B392223C7DB8300618273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246B393323C7DD6C00618273 /* VisualEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		246B393423C7DD6C00618273 /* PersonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		246B393523C7DD6C00618273 /* Personable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personable.swift; sourceTree = "<group>"; };
+		246B393623C7DD6C00618273 /* PersonName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonName.swift; sourceTree = "<group>"; };
+		246B393723C7DD6C00618273 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		246B393823C7DD6C00618273 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		246B393923C7DD6C00618273 /* HeadshotImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadshotImage.swift; sourceTree = "<group>"; };
+		246B393A23C7DD6C00618273 /* ActionButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtons.swift; sourceTree = "<group>"; };
+		246B394423C7DD8700618273 /* Person+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+Extensions.swift"; sourceTree = "<group>"; };
+		246B394523C7DD8700618273 /* Airtable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airtable.swift; sourceTree = "<group>"; };
+		246B394623C7DD8700618273 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		246B394723C7DD8700618273 /* UserDefaultsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsStore.swift; sourceTree = "<group>"; };
+		246B394823C7DD8700618273 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		246B394923C7DD8700618273 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		246B394A23C7DD8700618273 /* CoreDataLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataLogger.swift; sourceTree = "<group>"; };
+		246B394B23C7DD8700618273 /* Secrets.swift.gyb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Secrets.swift.gyb; sourceTree = "<group>"; };
+		246B395423C7DFB100618273 /* Directory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Directory.xcdatamodel; sourceTree = "<group>"; };
+		246B395623C7E24A00618273 /* airtable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airtable.json; sourceTree = "<group>"; };
+		246B395A23C7F6AA00618273 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		73A262EB0B7BC077B74D7CEA /* Pods_Directory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Directory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8705D63FCE7794BEF4137A /* Pods-Directory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Directory.debug.xcconfig"; path = "Target Support Files/Pods-Directory/Pods-Directory.debug.xcconfig"; sourceTree = "<group>"; };
+		E783DB67E631F1B6F69103DA /* Pods-Directory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Directory.release.xcconfig"; path = "Target Support Files/Pods-Directory/Pods-Directory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFBA7C67FBBF7B5D33BC82A /* Pods_Directory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +117,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04EC432DC5B0422B989128F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A262EB0B7BC077B74D7CEA /* Pods_Directory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		246B38EF23C7DB8100618273 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				246B391423C7DB8300618273 /* DirectoryTests */,
 				246B391F23C7DB8300618273 /* DirectoryUITests */,
 				246B38F923C7DB8100618273 /* Products */,
+				248B91FCCEC467AB7658FA24 /* Pods */,
+				04EC432DC5B0422B989128F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +150,15 @@
 		246B38FA23C7DB8100618273 /* Directory */ = {
 			isa = PBXGroup;
 			children = (
+				246B394323C7DD8700618273 /* Data */,
+				246B393223C7DD6C00618273 /* Views */,
 				246B38FB23C7DB8100618273 /* AppDelegate.swift */,
 				246B38FD23C7DB8100618273 /* SceneDelegate.swift */,
-				246B390223C7DB8100618273 /* ContentView.swift */,
 				246B390423C7DB8300618273 /* Assets.xcassets */,
 				246B390923C7DB8300618273 /* LaunchScreen.storyboard */,
 				246B390C23C7DB8300618273 /* Info.plist */,
-				246B38FF23C7DB8100618273 /* Directory.xcdatamodeld */,
+				246B395423C7DFB100618273 /* Directory.xcdatamodel */,
+				246B395623C7E24A00618273 /* airtable.json */,
 				246B390623C7DB8300618273 /* Preview Content */,
 			);
 			path = Directory;
@@ -139,6 +190,46 @@
 			path = DirectoryUITests;
 			sourceTree = "<group>";
 		};
+		246B393223C7DD6C00618273 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				246B393323C7DD6C00618273 /* VisualEffectView.swift */,
+				246B393423C7DD6C00618273 /* PersonRow.swift */,
+				246B393523C7DD6C00618273 /* Personable.swift */,
+				246B393623C7DD6C00618273 /* PersonName.swift */,
+				246B393723C7DD6C00618273 /* GradientView.swift */,
+				246B393823C7DD6C00618273 /* ContentView.swift */,
+				246B393923C7DD6C00618273 /* HeadshotImage.swift */,
+				246B393A23C7DD6C00618273 /* ActionButtons.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		246B394323C7DD8700618273 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				246B394423C7DD8700618273 /* Person+Extensions.swift */,
+				246B394523C7DD8700618273 /* Airtable.swift */,
+				246B394623C7DD8700618273 /* UserDefault.swift */,
+				246B394723C7DD8700618273 /* UserDefaultsStore.swift */,
+				246B394823C7DD8700618273 /* Secrets.swift */,
+				246B394923C7DD8700618273 /* Fetcher.swift */,
+				246B394A23C7DD8700618273 /* CoreDataLogger.swift */,
+				246B394B23C7DD8700618273 /* Secrets.swift.gyb */,
+				246B395A23C7F6AA00618273 /* Dictionary+Extensions.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		248B91FCCEC467AB7658FA24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD8705D63FCE7794BEF4137A /* Pods-Directory.debug.xcconfig */,
+				E783DB67E631F1B6F69103DA /* Pods-Directory.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +237,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 246B392523C7DB8300618273 /* Build configuration list for PBXNativeTarget "Directory" */;
 			buildPhases = (
+				9EFD2A2CE39D0C1F459B6CB2 /* [CP] Check Pods Manifest.lock */,
+				246B392E23C7DC8A00618273 /* ShellScript */,
 				246B38F423C7DB8100618273 /* Sources */,
 				246B38F523C7DB8100618273 /* Frameworks */,
 				246B38F623C7DB8100618273 /* Resources */,
+				7C7E1BD4966B12B0DC11E878 /* [CP] Embed Pods Frameworks */,
+				246B392F23C7DCD900618273 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -244,7 +339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				246B390B23C7DB8300618273 /* LaunchScreen.storyboard in Resources */,
+				246B395323C7DD8700618273 /* Secrets.swift.gyb in Resources */,
 				246B390823C7DB8300618273 /* Preview Assets.xcassets in Resources */,
+				246B395723C7E24A00618273 /* airtable.json in Resources */,
 				246B390523C7DB8300618273 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,15 +362,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		246B392E23C7DC8A00618273 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#source ./secrets.sh\n#find . -name '*.gyb' | \\\n#while read file; do \\\n#    /usr/local/bin/gyb --line-directive '' -o \"${file%.gyb}\" \"$file\"; \\\n#done\n";
+		};
+		246B392F23C7DCD900618273 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# \"${PODS_ROOT}/Fabric/run\" -d\n";
+		};
+		7C7E1BD4966B12B0DC11E878 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Directory/Pods-Directory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Directory/Pods-Directory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Directory/Pods-Directory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EFD2A2CE39D0C1F459B6CB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Directory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		246B38F423C7DB8100618273 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				246B390123C7DB8100618273 /* Directory.xcdatamodeld in Sources */,
+				246B394C23C7DD8700618273 /* Person+Extensions.swift in Sources */,
+				246B395523C7DFB100618273 /* Directory.xcdatamodel in Sources */,
+				246B394E23C7DD8700618273 /* UserDefault.swift in Sources */,
+				246B393D23C7DD6C00618273 /* Personable.swift in Sources */,
+				246B393C23C7DD6C00618273 /* PersonRow.swift in Sources */,
+				246B395023C7DD8700618273 /* Secrets.swift in Sources */,
+				246B393E23C7DD6C00618273 /* PersonName.swift in Sources */,
+				246B394F23C7DD8700618273 /* UserDefaultsStore.swift in Sources */,
+				246B395B23C7F6AA00618273 /* Dictionary+Extensions.swift in Sources */,
+				246B395223C7DD8700618273 /* CoreDataLogger.swift in Sources */,
 				246B38FC23C7DB8100618273 /* AppDelegate.swift in Sources */,
-				246B390323C7DB8100618273 /* ContentView.swift in Sources */,
+				246B393B23C7DD6C00618273 /* VisualEffectView.swift in Sources */,
+				246B394D23C7DD8700618273 /* Airtable.swift in Sources */,
+				246B394023C7DD6C00618273 /* ContentView.swift in Sources */,
 				246B38FE23C7DB8100618273 /* SceneDelegate.swift in Sources */,
+				246B393F23C7DD6C00618273 /* GradientView.swift in Sources */,
+				246B394123C7DD6C00618273 /* HeadshotImage.swift in Sources */,
+				246B394223C7DD6C00618273 /* ActionButtons.swift in Sources */,
+				246B395123C7DD8700618273 /* Fetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +624,7 @@
 		};
 		246B392623C7DB8300618273 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8705D63FCE7794BEF4137A /* Pods-Directory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +644,7 @@
 		};
 		246B392723C7DB8300618273 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E783DB67E631F1B6F69103DA /* Pods-Directory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,19 +782,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		246B38FF23C7DB8100618273 /* Directory.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				246B390023C7DB8100618273 /* Directory.xcdatamodel */,
-			);
-			currentVersion = 246B390023C7DB8100618273 /* Directory.xcdatamodel */;
-			path = Directory.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 246B38F023C7DB8100618273 /* Project object */;
 }

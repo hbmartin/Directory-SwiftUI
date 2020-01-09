@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Headshot" representedClassName="Headshot" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="String"/>
+        <attribute name="thumbnails" optional="YES" attributeType="Binary"/>
+        <attribute name="url" attributeType="String"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="headshot" inverseEntity="Person"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
+        <attribute name="addedToContacts" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="department" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="firstName" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <relationship name="headshot" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Headshot" inverseName="person" inverseEntity="Headshot"/>
+        <relationship name="reports" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-437.6640625" positionY="-58.1484375" width="128" height="208"/>
+        <element name="Headshot" positionX="-423" positionY="18" width="128" height="103"/>
+    </elements>
+</model>
