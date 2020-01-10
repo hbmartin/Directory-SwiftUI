@@ -15,7 +15,7 @@ private let fieldMappings = ["First Name": "firstName", "Last Name": "lastName",
 
 typealias Handler = (Swift.Result<[[String: Any]], AirtableError>) -> Void
 
-struct Airtable {
+enum Airtable {
     static func request(then handler: @escaping Handler) {
         let headers = ["Authorization": "Bearer \(Secrets.airbaseToken)"]
         let url = "\(airtableApi)/\(Secrets.airbaseApp)/\(airtableTable)?maxRecords=100&filterByFormula=\(airtableFilter)"
@@ -30,9 +30,11 @@ struct Airtable {
                     if let message = (error as? [String: String])?["message"] {
                         handler(.failure(.apiFailure(message)))
                     } else {
+                        // swiftlint:disable multiline_arguments_brackets
                         handler(.failure(AirtableError.apiFailure(
                             "Unknown API error, status code: \(response.response?.statusCode ?? -1)"
                         )))
+                        // swiftlint:enable multiline_arguments_brackets
                     }
                     return
                 }

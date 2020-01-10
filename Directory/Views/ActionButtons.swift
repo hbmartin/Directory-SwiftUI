@@ -6,6 +6,7 @@
 //  Copyright © 2020 Harold Martin. All rights reserved.
 //
 
+import SFSafeSymbols
 import SwiftUI
 
 struct AddContactButton: View, Personable {
@@ -16,7 +17,7 @@ struct AddContactButton: View, Personable {
             self.logSelected("add_contact")
             self.person.addToContacts()
         }) {
-            Image(systemName: "person.crop.circle.badge.plus").font(Font.system(size: 30, weight: .thin))
+            Image(systemSymbol: .personCropCircleBadgePlus).defaultFont()
         }
     }
 }
@@ -29,7 +30,7 @@ struct StartMessageButton: View, Personable {
             self.logSelected("message")
             self.person.startMessage()
         }) {
-            Image(systemName: "message.circle.fill").font(Font.system(size: 30, weight: .thin))
+            Image(systemSymbol: .messageCircleFill).defaultFont()
         }
     }
 }
@@ -42,7 +43,7 @@ struct StartPhoneCallButton: View, Personable {
             self.logSelected("phone")
             self.person.startCall()
         }) {
-            Image(systemName: "phone.circle.fill").font(Font.system(size: 30, weight: .thin))
+            Image(systemSymbol: .phoneCircleFill).defaultFont()
         }
     }
 }
@@ -55,7 +56,13 @@ struct StartEmailButton: View, Personable {
             self.logSelected("email")
             self.person.startEmail()
         }) {
-            Image(systemName: "envelope.circle.fill").font(Font.system(size: 30, weight: .thin))
+            Image(systemSymbol: .envelopeCircleFill).defaultFont()
         }
+    }
+}
+
+private extension View {
+    func defaultFont() -> some View {
+        self.font(Font.system(size: 30, weight: .thin))
     }
 }

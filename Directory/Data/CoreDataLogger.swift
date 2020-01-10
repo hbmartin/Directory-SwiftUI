@@ -20,6 +20,10 @@ public class CoreDataLogger {
         )
     }
 
+    deinit {
+        stop()
+    }
+
     func stop() {
         notificationCenter.removeObserver(self)
     }

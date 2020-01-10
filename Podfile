@@ -16,4 +16,5 @@ target 'Directory' do
   pod 'Kingfisher/SwiftUI'
   pod 'Shift', :git => 'https://github.com/andre991/Shift.git'
   pod 'Alamofire', '~> 4.8'
+  pod 'SFSafeSymbols', '~> 1'
 end

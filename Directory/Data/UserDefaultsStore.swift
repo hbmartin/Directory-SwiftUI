@@ -6,7 +6,7 @@
 //  Copyright © 2020 Harold Martin. All rights reserved.
 //
 
-struct UserDefaultsStore {
-    @UserDefault("has_launched_before", defaultValue: false)
+enum UserDefaultsStore {
+    @UserDefault(key: "has_launched_before", defaultValue: false)
     static var hasLaunched: Bool
 }

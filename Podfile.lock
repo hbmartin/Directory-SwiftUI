@@ -106,6 +106,7 @@ PODS:
   - nanopb/decode (0.3.9011)
   - nanopb/encode (0.3.9011)
   - Protobuf (3.11.2)
+  - SFSafeSymbols (1.1.1)
   - Shift (0.2.2)
   - SwiftLint (0.38.2)
   - Sync (6.0.0)
@@ -117,6 +118,7 @@ DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Performance
   - Kingfisher/SwiftUI
+  - SFSafeSymbols (~> 1)
   - Shift (from `https://github.com/andre991/Shift.git`)
   - SwiftLint
   - Sync (~> 6.0)
@@ -145,6 +147,7 @@ SPEC REPOS:
     - Kingfisher
     - nanopb
     - Protobuf
+    - SFSafeSymbols
     - SwiftLint
     - Sync
 
@@ -180,10 +183,11 @@ SPEC CHECKSUMS:
   Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
+  SFSafeSymbols: 42f8849961ad7a31ec70a090c9e06b600a453996
   Shift: 6aa4729ec2d7fbb0eaf016b2ee624fa5508892d8
   SwiftLint: 8f5d2f903e1c9bcbc832fd16771e80a263ac6cbb
   Sync: a6288926bee65a1ac3c72055446c558776af43f3
 
-PODFILE CHECKSUM: 31628cf10a606395e8e62e57d06fcab26a190c9b
+PODFILE CHECKSUM: 5a9d9b0535f31a6fcf87bd4690a037e795a26d53
 
 COCOAPODS: 1.8.4
