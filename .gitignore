@@ -65,6 +65,12 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
+# AppCode
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/tasks.xml
+.idea/*.iml
+
 # Script containing API secrets, see Secrets.swift for more information
 secrets.sh
 Secrets.swift

@@ -107,6 +107,7 @@ PODS:
   - nanopb/encode (0.3.9011)
   - Protobuf (3.11.2)
   - Shift (0.2.2)
+  - SwiftLint (0.38.2)
   - Sync (6.0.0)
 
 DEPENDENCIES:
@@ -117,6 +118,7 @@ DEPENDENCIES:
   - Firebase/Performance
   - Kingfisher/SwiftUI
   - Shift (from `https://github.com/andre991/Shift.git`)
+  - SwiftLint
   - Sync (~> 6.0)
 
 SPEC REPOS:
@@ -143,6 +145,7 @@ SPEC REPOS:
     - Kingfisher
     - nanopb
     - Protobuf
+    - SwiftLint
     - Sync
 
 EXTERNAL SOURCES:
@@ -178,8 +181,9 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
   Shift: 6aa4729ec2d7fbb0eaf016b2ee624fa5508892d8
+  SwiftLint: 8f5d2f903e1c9bcbc832fd16771e80a263ac6cbb
   Sync: a6288926bee65a1ac3c72055446c558776af43f3
 
-PODFILE CHECKSUM: 029b4cf4f0e70172f02de5a1f4e9764f511d7957
+PODFILE CHECKSUM: 31628cf10a606395e8e62e57d06fcab26a190c9b
 
 COCOAPODS: 1.8.4
