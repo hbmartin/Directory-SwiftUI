@@ -5,6 +5,8 @@
 // by places secrets.sh in the root of this repo that looks like:
 // export AIRBASE_APP="appid"
 // export AIRBASE_TOKEN="token"
+//
+// For reference, see: https://nshipster.com/secrets/
 
 public enum Secrets {
 
