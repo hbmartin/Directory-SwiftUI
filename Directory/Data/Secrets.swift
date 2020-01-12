@@ -8,10 +8,10 @@
 //
 // For reference, see: https://nshipster.com/secrets/
 
-public enum Secrets {
+internal enum Secrets {
 
-  public static var airbaseApp: String = "appid"
+  internal static var airbaseApp: String = "appid"
 
-  public static var airbaseToken: String = "token"
+  internal static var airbaseToken: String = "token"
 
 }

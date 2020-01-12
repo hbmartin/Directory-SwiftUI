@@ -7,15 +7,14 @@
 
 A directory demo app written with SwiftUI, Core Data, and Alamofire
 
-<img src="docs/screenshots/light.png" width="25%"/>
-<img src="docs/screenshots/dark.png" width="25%"/>
+<img src="docs/screenshots/light.png" width="25%"/> <img src="docs/screenshots/dark.png" width="25%"/>
 
 ## Getting Started
 1. Clone (or fork) this repo: ``git clone git@github.com:hbmartin/Directory-SwiftUI.git``
 2. Open ``Directory.xcworkspace`` in XCode
 3. Build and run!
 
-### Additional tooling:
+#### Additional tooling:
 * Install [SwiftLint](https://realm.github.io/SwiftLint/) with ``brew intall swiftlint`` for command line linting
 * [Pods](https://cocoapods.org/) are committed in the repo, but can be reinstalled ``pod install``
 * Install [gyb](https://nshipster.com/swift-gyb/) with ``brew install nshipster/formulae/gyb`` and follow the steps in [Secrets.swift](https://github.com/hbmartin/Directory-SwiftUI/blob/master/Directory/Data/Secrets.swift) for securing API keys
@@ -33,11 +32,7 @@ A directory demo app written with SwiftUI, Core Data, and Alamofire
 
 [Open an issue](https://github.com/hbmartin/Directory-SwiftUI/issues/new) to report bugs or make feature requests. Pull requests are very welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-### Code Formatting
-
-This project uses [SwiftLint](https://realm.github.io/SwiftLint/) with rules configured in [.swiftlint.yml](https://github.com/hbmartin/Directory-SwiftUI/blob/master/.swiftlint.yml)
-
-### Code of Conduct
+#### Code of Conduct
 
 Treat other people with helpfulness, gratitude, and consideration! See the [Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
 

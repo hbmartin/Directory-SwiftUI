@@ -97,6 +97,8 @@ extension Person: Identifiable {
         }
     }
 
+    // MARK: - Contacts helper functions
+
     private func buildContact() -> CNMutableContact {
         let contact = CNMutableContact()
 

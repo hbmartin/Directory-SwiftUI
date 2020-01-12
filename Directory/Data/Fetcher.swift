@@ -10,7 +10,7 @@ import CoreData
 import Crashlytics
 import Sync
 
-public struct Fetcher {
+internal struct Fetcher {
     let dataStack: DataStack
 
     func syncAirtableToCoreData(useLocalFallback: Bool) {
@@ -18,7 +18,6 @@ public struct Fetcher {
             switch result {
             case .success(let records):
                 self.sync(records)
-
             case .failure(let error):
                 self.logError(error)
                 if useLocalFallback {
